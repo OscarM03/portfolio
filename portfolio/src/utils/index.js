@@ -1,6 +1,6 @@
 import menu from '../assets/icons/menu.png'
 import close from '../assets/icons/close.png'
-import oscar from '../assets/images/Oscar.png'
+import oscar from '../assets/images/oscar.png'
 import send from '../assets/icons/send.png'
 import linkedin from '../assets/icons/linkedin.png'
 import github from '../assets/icons/github.png'
