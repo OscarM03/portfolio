@@ -9,7 +9,7 @@ const Project1 = () => {
           Xiaomi Store Centre
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-          A frontend e-commerce project for Xiaomi products. and Tailwind CSS.
+        After successfully building this e-commerce website using React.js, Tailwind CSS, and Django, I found myself thinking about the potential for enhancing frontend functionalities. I decided to take the initiative to focus on features like cart management and dynamic product rendering, which demonstrated the extensive capabilities of frontend technologies.
         </p>
 
         <h2 className="text-2xl font-semibold text-secondary mb-3">Features</h2>
@@ -32,8 +32,9 @@ const Project1 = () => {
             utility-first styling.
           </li>
         </ul>
-        <div className="mb-3">
-          <Button label="View Code" />
+        <div className="mb-3 flex items-center ">
+          <a href="https://github.com/OscarM03/xiaomistore-backend"><Button label="View Back-End Code" /></a>
+          <p className="text-gray-700 "> (Django)</p>
         </div>
         <div>
           <h2 className="text-2xl font-semibold text-secondary mb-3">
