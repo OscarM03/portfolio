@@ -27,7 +27,7 @@ const About = () => {
           <h1 className="text-xl text-secondary font-medium max-lg:text-center">
             My Skills
           </h1>
-          <div className="grid grid-cols-4 gap-4 mt-4">
+          <div className="grid grid-cols-4 gap-4 mt-4 max-sm:grid-cols-3">
             {allSkills.map((skill) => (
               <SkillCard key={skill.name} name={skill.name} icon={skill.icon} />
             ))}
