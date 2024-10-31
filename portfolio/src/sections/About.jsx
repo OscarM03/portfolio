@@ -1,4 +1,5 @@
-import { skills1, skills2, skills3, skills4 } from "../constants";
+import { allSkills } from "../constants";
+import SkillCard from "../components/SkillCard";
 
 const About = () => {
   return (
@@ -22,7 +23,17 @@ const About = () => {
             skills as a developer.
           </p>
         </div>
-        <div className="">
+        <div className="w-[40%] max-lg:w-full">
+          <h1 className="text-xl text-secondary font-medium max-lg:text-center">
+            My Skills
+          </h1>
+          <div className="grid grid-cols-4 gap-4 mt-4">
+            {allSkills.map((skill) => (
+              <SkillCard key={skill.name} name={skill.name} icon={skill.icon} />
+            ))}
+          </div>
+        </div>
+        {/* <div className="">
           <h1 className="text-xl text-secondary font-medium max-lg:text-center">My Skills</h1>
           <div className="flex gap-3 mt-4 max-lg:justify-center max-sm:flex-col max-sm:items-center max-sm:gap-8">
             <div className="flex items-center gap-4 max-sm:flex-col max-sm:gap-8">
@@ -62,7 +73,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

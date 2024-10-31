@@ -1,6 +1,6 @@
-import { Api, Auth, Css3, Django, Flask, Git, Github, Html5, Js, Mysql, Postgres, React, Redux, Responsive, Tailwind } from "../utils";
+import { Api, Auth, Css3, Django, Flask, Git, Github, Html5, Js, Mysql, Postgres, React, Redux, Tailwind } from "../utils";
 
-export const skills1 = [
+export const allSkills = [
     {
         name: 'HTML5',
         icon: Html5
@@ -21,20 +21,12 @@ export const skills1 = [
         name: 'Redux',
         icon: Redux
     },
-]
-
-export const skills2 = [
-
     {
         name: 'Tailwind CSS',
         icon: Tailwind
     },
     {
-        name: 'Responsive Design',
-        icon: Responsive
-    },
-    {
-        name: 'API Integration',
+        name: 'API',
         icon: Api
     },
     {
@@ -45,9 +37,6 @@ export const skills2 = [
         name: 'Flask',
         icon: Flask
     },
-]
-export const skills3 = [
-    
     {
         name: 'MySQL',
         icon: Mysql
@@ -61,16 +50,13 @@ export const skills3 = [
         icon: Api
     },
     {
-        name: 'Authentication',
+        name: 'Auth',
         icon: Auth
     },
     {
         name: 'Git',
         icon: Git
     },
-]
-export const skills4 = [
-    
     {
         name: 'GitHub',
         icon: Github
