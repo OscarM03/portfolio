@@ -1,4 +1,4 @@
-import { Api, Auth, Css3, Django, Flask, Git, Github, Html5, Js, Mysql, Postgres, Project1, React, Redux, Responsive, Tailwind } from "../utils";
+import { Api, Auth, Css3, Django, Flask, Git, Github, Html5, Js, Mysql, Postgres, Project1, Project2, React, Redux, Responsive, Tailwind } from "../utils";
 
 export const allSkills = [
     {
@@ -73,9 +73,9 @@ export const projects = [
         codeLink: 'https://github.com/OscarM03/Store-Centre'
     },
     {
-        image: Project1,
-        name: 'Xiaomi Store Centre',
-        description: 'An e-commerce website for selling Xiaomi related products',
+        image: Project2,
+        name: 'Oplynk',
+        description: 'A platform that allows users to raise funds as a group and contribute to a certain topic',
         technologies: 'React Js + Tailwind CSS',
         demoLink: 'https://oplynk-project.vercel.app/',
         codeLink: 'https://github.com/OscarM03/oplynk_project'
