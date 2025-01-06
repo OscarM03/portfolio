@@ -10,6 +10,7 @@ export default {
         'bg-gray': '#F5F5FC',
         'hero-bg': '#E6E6FA',
         'secondary': '#fd6909',
+        'dark-bg': '#020113',
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
