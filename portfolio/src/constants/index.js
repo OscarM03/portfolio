@@ -1,4 +1,4 @@
-import { Api, Auth, Css3, Django, Flask, Git, Github, Html5, Js, Mysql, Postgres, Project1, Project2, React, Redux, Responsive, Tailwind } from "../utils";
+import { Api, Auth, Css3, Django, Flask, Git, Github, Html5, Js, Mysql, Postgres, Project1, Project2, Project3, React, Redux, Responsive, Tailwind } from "../utils";
 
 export const allSkills = [
     {
@@ -79,5 +79,13 @@ export const projects = [
         technologies: 'React Js + Tailwind CSS',
         demoLink: 'https://oplynk-project.vercel.app/',
         codeLink: 'https://github.com/OscarM03/oplynk_project'
+    },
+    {
+        image: Project3,
+        name: 'Voice Over Expert Portfolio',
+        description: 'A portfolio website for a voice over expert',
+        technologies: 'React Js + Tailwind CSS',
+        demoLink: 'https://kaimenyi-portfolio.vercel.app/',
+        codeLink: 'https://github.com/OscarM03/kaimenyi-portfolio'
     },
 ]
