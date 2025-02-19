@@ -1,4 +1,4 @@
-import { Api, Auth, Css3, Django, Flask, Git, Github, Html5, Js, Mysql, Postgres, Project1, Project2, Project3, React, Redux, Responsive, Tailwind } from "../utils";
+import { Api, Auth, Css3, Django, Flask, Git, Github, Html5, Js, Mysql, Postgres, Project1, Project2, Project3, Project4, React, Redux, Tailwind } from "../utils";
 
 export const allSkills = [
     {
@@ -65,9 +65,17 @@ export const allSkills = [
 
 export const projects = [
     {
+        image: Project4,
+        name: 'AdFriend Chrome Extension',
+        description: 'A chrome extension that replaces ads with something positive to benefit the users',
+        technologies: 'React Js + Tailwind CSS',
+        demoLink: '',
+        codeLink: 'https://github.com/OscarM03/adfriend-chrome-extension'
+    },
+    {
         image: Project1,
         name: 'Xiaomi Store Centre',
-        description: 'An e-commerce website for selling Xiaomi related products',
+        description: 'An e-commerce website for selling Xiaomi related products and accessories',
         technologies: 'React Js + Tailwind CSS',
         demoLink: 'https://store-centre.vercel.app/',
         codeLink: 'https://github.com/OscarM03/Store-Centre'
