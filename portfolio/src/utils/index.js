@@ -24,6 +24,8 @@ import project1 from '../assets/images/project1.png'
 import project2 from '../assets/images/project2.png'
 import project3 from '../assets/images/project3.png'
 import project4 from '../assets/images/project4.png'
+import project5 from '../assets/images/project5.png'
+import project6 from '../assets/images/project6.png'
 import gmail from '../assets/icons/gmail.png'
 import rightarrow from '../assets/icons/rightarrow.png'
 import call from '../assets/icons/call.png'
@@ -54,6 +56,8 @@ export const Project1 = project1
 export const Project2 = project2
 export const Project3 = project3
 export const Project4 = project4
+export const Project5 = project5
+export const Project6 = project6
 export const Gmail = gmail
 export const Rightarrow = rightarrow
 export const Call = call

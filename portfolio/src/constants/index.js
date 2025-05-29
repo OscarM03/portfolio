@@ -1,4 +1,4 @@
-import { Api, Auth, Css3, Django, Flask, Git, Github, Html5, Js, Mysql, Postgres, Project1, Project2, Project3, Project4, React, Redux, Tailwind } from "../utils";
+import { Api, Auth, Css3, Django, Flask, Git, Github, Html5, Js, Mysql, Postgres, Project1, Project2, Project3, Project4, Project5, Project6, React, Redux, Tailwind } from "../utils";
 
 export const allSkills = [
     {
@@ -65,6 +65,22 @@ export const allSkills = [
 
 export const projects = [
     {
+        image: Project6,
+        name: 'Emacs Creation',
+        description: 'This is a simple yet powerful photography and videography website designed to showcase and manage media content efficiently',
+        technologies: 'Next Js + Tailwind CSS',
+        demoLink: 'https://emacscreation.studio/',
+        codeLink: 'https://github.com/OscarM03/emacs-creation'
+    },
+    {
+        image: Project5,
+        name: 'Gadgets Kenya',
+        description: 'A responsive, feature-rich e-commerce websitr designed for scalability, clean UI, and seamless UX across devices',
+        technologies: 'Next Js + Tailwind CSS',
+        demoLink: 'https://e-commerce-store-nine-delta.vercel.app/',
+        codeLink: 'https://github.com/OscarM03/e-commerce-store'
+    },
+    {
         image: Project4,
         name: 'AdFriend Chrome Extension',
         description: 'A chrome extension that replaces ads with something positive to benefit the users',
@@ -81,14 +97,6 @@ export const projects = [
         codeLink: 'https://github.com/OscarM03/Store-Centre'
     },
     {
-        image: Project2,
-        name: 'Oplynk',
-        description: 'A platform that allows users to raise funds as a group and contribute to a certain topic',
-        technologies: 'React Js + Tailwind CSS',
-        demoLink: 'https://oplynk-project.vercel.app/',
-        codeLink: 'https://github.com/OscarM03/oplynk_project'
-    },
-    {
         image: Project3,
         name: 'Voice Over Expert Portfolio',
         description: 'A portfolio website for a voice over expert',
@@ -96,4 +104,13 @@ export const projects = [
         demoLink: 'https://kaimenyi-portfolio.vercel.app/',
         codeLink: 'https://github.com/OscarM03/kaimenyi-portfolio'
     },
+    {
+        image: Project2,
+        name: 'Oplynk',
+        description: 'A platform that allows users to raise funds as a group and contribute to a certain topic',
+        technologies: 'React Js + Tailwind CSS',
+        demoLink: 'https://oplynk-project.vercel.app/',
+        codeLink: 'https://github.com/OscarM03/oplynk_project'
+    },
+    
 ]
